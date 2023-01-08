@@ -1,6 +1,7 @@
 {
   "preload": "dist/preload.js",
   "logo": "icon.png",
+  "platform": ["win32", "darwin"],
   "features": [
     {
       "code": "open-folder",
