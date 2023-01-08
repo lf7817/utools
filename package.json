@@ -1,0 +1,18 @@
+{
+  "name": "utools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:open": "pnpm --filter=./packages/open-folder-with-vscode run dev",
+    "build": "pnpm --filter=./packages/* run build"
+  },
+  "keywords": [],
+  "author": "lf7817",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "tsup": "^6.5.0",
+    "utools-api-types": "^3.0.0"
+  }
+}

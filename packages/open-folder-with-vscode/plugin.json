@@ -1,0 +1,11 @@
+{
+  "preload": "dist/preload.js",
+  "logo": "icon.png",
+  "features": [
+    {
+      "code": "open-folder",
+      "explain": "使用vscode打开当前目录",
+      "cmds": ["open", "vsc", "vscode", "open-folder", "open-folder-with-vscode"]
+    }
+  ]
+}
