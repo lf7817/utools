@@ -7,4 +7,5 @@ export default defineConfig((options) => ({
   clean: true,
   watch: !!options.watch,
   minify: false,
+  platform: 'node',
 }));
